@@ -1,0 +1,57 @@
+[
+    {
+      "image": "https://i.ibb.co.com/C5F1T6LB/david-foodphototasty-E94j3r-Mcxlw-unsplash-1.jpg",
+      "name": "Big and Juicy Burger",
+      "time": "30 minutes",
+      "description": "A classic, juicy beef burger topped with fresh lettuce, tomatoes, and a flavorful sauce."
+    },
+    {
+      "image": "https://i.ibb.co.com/F4qfTwBB/krista-stucchio-2-CZ0-Zpuj-g-U-unsplash.jpg",
+      "name": "Spaghetti Bolognese",
+      "time": "45 minutes",
+      "description": "A rich and hearty Italian pasta dish with a savory tomato and meat sauce."
+    },
+    {
+      "image": "https://i.ibb.co.com/Fkc76vXW/inna-gurina-Jsp-LKUauw-SI-unsplash.jpg",
+      "name": "Margherita Pizza",
+      "time": "1 hour",
+      "description": "A delicious pizza topped with fresh basil, mozzarella, and a flavorful tomato sauce."
+    },
+    {
+      "image": "https://i.ibb.co.com/MDx3xC4n/pancake.jpg",
+      "name": "Fluffy Pancakes",
+      "time": "20 minutes",
+      "description": "Soft, buttery pancakes served with maple syrup and fresh berries."
+    },
+    {
+      "image": "https://i.ibb.co.com/8LPsRwM9/chris-tweten-FK-UKNip0p-E-unsplash.jpg",
+      "name": "Caesar Salad",
+      "time": "15 minutes",
+      "description": "A crisp and refreshing salad with romaine lettuce, Parmesan cheese, and creamy Caesar dressing."
+    },
+    {
+      "image": "https://i.ibb.co.com/5xrwzScQ/alison-marras-Gy-V6-SL-f-Ks-I-unsplash.jpg",
+      "name": "Grilled Chicken",
+      "time": "40 minutes",
+      "description": "Tender and juicy grilled chicken breast seasoned to perfection."
+    },
+    {
+      "image": "https://i.ibb.co.com/bpKdcm0/derek-duran-Jz4-QMh-Lv-Ggw-unsplash.jpg",
+      "name": "Sushi Rolls",
+      "time": "1 hour",
+      "description": "Delicate sushi rolls filled with fresh fish, rice, and vegetables."
+    },
+    {
+      "image": "https://i.ibb.co.com/21DWFDYG/jenn-kosar-k5-VGs9q-Qubc-unsplash.jpg",
+      "name": "Tomato Soup",
+      "time": "30 minutes",
+      "description": "A warm and comforting tomato soup with a hint of basil and cream."
+    },
+    {
+      "image": "https://i.ibb.co.com/Xx1wcXWS/jon-parry-4-A9-IELf-Rdw-E-unsplash.jpg",
+      "name": "Burger and Fries",
+      "time": "35 minutes",
+      "description": "A classic combo of a juicy burger served with crispy golden fries."
+    }
+  ]
+  

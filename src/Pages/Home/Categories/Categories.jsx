@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Categories = () => {
     return (
-        <div className='mt-10 mb-10 max-w-7xl mx-auto'>
+        <div className='mt-10 mb-16 max-w-7xl mx-auto'>
             {/* header */}
             <div className="flex items-center justify-between">
                 <h1 className='text-4xl font-bold'>Categories</h1>

@@ -19,7 +19,7 @@ const BannerSlider = () => {
         disableOnInteraction: false, 
       }}
       loop={true} 
-      className="mySwiper max-w-7xl mx-auto mt-10"
+      className="mySwiper max-w-7xl mx-auto mt-10 "
       onSwiper={(swiper) => {
         swiperRef.current = swiper; // Store the Swiper instance in the ref
       }}
@@ -32,7 +32,7 @@ const BannerSlider = () => {
         if (swiperRef.current) swiperRef.current.autoplay.start();
       }}
     >
-      <SwiperSlide className="rounded-2xl overflow-hidden">
+      <SwiperSlide className="rounded-2xl overflow-hidden mb-14">
         <div className="h-[500px] flex">
           {/* Text */}
           <div className="w-1/2 px-7 py-7 bg-gradient-to-r from-sky-200 to-sky-300">
