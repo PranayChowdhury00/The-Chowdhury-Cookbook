@@ -3,46 +3,36 @@ import { Link } from 'react-router-dom';
 
 const Categories = () => {
     return (
-        <div className='mt-10 mb-16 max-w-7xl mx-auto'>
-            {/* header */}
-            <div className="flex items-center justify-between">
-                <h1 className='text-4xl font-bold'>Categories</h1>
-                <Link><button className='btn bg-sky-200'>View All Categories</button></Link>
+        <div className='mt-10 mb-16 max-w-7xl mx-auto px-5'>
+            {/* Header */}
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
+                <h1 className='text-3xl sm:text-4xl font-bold'>Categories</h1>
+                <Link>
+                    <button className='btn bg-sky-200 px-4 py-2 text-sm sm:text-base rounded-md hover:bg-sky-300'>
+                        View All Categories
+                    </button>
+                </Link>
             </div>
-            {/* list of foods */}
-            <div className=" mt-10 flex gap-5">
-                {/* breakfast */}
-                <div className="w-1/6 ">
-                    <img src="/public/Breakfirst.jpg" alt="" className='rounded-xl'/>
-                    <p className='text-xl font-medium text-center py-2'>Breakfast</p>
-                </div>
-                {/* breakfast */}
-                <div className="w-1/6 ">
-                    <img src="/public/vegen.jpg" alt="" className='rounded-xl'/>
-                    <p className='text-xl font-medium text-center py-2'>Vegan</p>
-                </div>
-                {/* breakfast */}
-                <div className="w-1/6 ">
-                    <img src="/public/meat.jpg" alt="" className='rounded-xl'/>
-                    <p className='text-xl font-medium text-center py-2'>Meat</p>
-                </div>
-                {/* breakfast */}
-                <div className="w-1/6 ">
-                    <img src="/public/sweet.jpg" alt="" className='rounded-xl'/>
-                    <p className='text-xl font-medium text-center py-2'>Dessert</p>
-                </div>
-                {/* breakfast */}
-                <div className="w-1/6 ">
-                    <img src="/public/launch.jpg" alt="" className='rounded-xl'/>
-                    <p className='text-xl font-medium text-center py-2'>Launch</p>
-                </div>
-                {/* breakfast */}
-                <div className="w-1/6 ">
-                    <img src="/public/chocolate.jpg" alt="" className='rounded-xl'/>
-                    <p className='text-xl font-medium text-center py-2'>Chocolate</p>
-                </div>
-                
-                
+
+            {/* Categories Grid */}
+            <div className="mt-10 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-5">
+                {[
+                    { name: "Breakfast", img: "/public/Breakfirst.jpg" },
+                    { name: "Vegan", img: "/public/vegen.jpg" },
+                    { name: "Meat", img: "/public/meat.jpg" },
+                    { name: "Dessert", img: "/public/sweet.jpg" },
+                    { name: "Lunch", img: "/public/launch.jpg" },
+                    { name: "Chocolate", img: "/public/chocolate.jpg" },
+                ].map((category, index) => (
+                    <div key={index} className="w-full">
+                        <img 
+                            src={category.img} 
+                            alt={category.name} 
+                            className='rounded-xl w-full h-28 sm:h-32 object-cover' 
+                        />
+                        <p className='text-lg sm:text-xl font-medium text-center py-2'>{category.name}</p>
+                    </div>
+                ))}
             </div>
         </div>
     );

@@ -7,11 +7,11 @@ import Swal from "sweetalert2";
 const Navbar = () => {
     const {user,signOutUser}=useContext(AuthContext);
     const links = <>
-    <li className="font-medium text-[17px]"><Link to='/'>Home</Link></li>
-    <li className="font-medium text-[17px]"><Link to='/recipes'>Recipes</Link></li>
-    <li className="font-medium text-[17px]"><Link to='/blog'>Blog</Link></li>
-    <li className="font-medium text-[17px]"><Link to='/contact'>Contact</Link></li>
-    <li className="font-medium text-[17px]"><Link to='/aboutUs'>About Us</Link></li>
+    <li className="font-medium text-[17px]"><a href='/'>Home</a></li>
+    <li className="font-medium text-[17px]"><a href='#recipes'>Recipes</a></li>
+    <li className="font-medium text-[17px]"><a href='#blog'>Blog</a></li>
+    <li className="font-medium text-[17px]"><a href='#contact'>Contact</a></li>
+    <li className="font-medium text-[17px]"><a href='#aboutUs'>About Us</a></li>
     
     </>
     const handelLogout = ()=>{
@@ -49,7 +49,7 @@ const Navbar = () => {
         {links}
       </ul>
     </div>
-    <Link to='/' className="btn btn-ghost text-xl">𝕿𝖍𝖊 𝕮𝖍𝖔𝖜𝖉𝖍𝖚𝖗𝖞 𝕮𝖔𝖔𝖐𝖇𝖔𝖔𝖐</Link>
+    <Link to='/' className="btn btn-ghost lg:text-xl ">𝕿𝖍𝖊 𝕮𝖍𝖔𝖜𝖉𝖍𝖚𝖗𝖞 𝕮𝖔𝖔𝖐𝖇𝖔𝖔𝖐</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
